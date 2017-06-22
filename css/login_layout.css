@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+#log-in {
+    width: 30%;
+    margin: 100px auto 0 auto;
+    padding: 15px 0 5px 0;
+}
+
+#logo {
+    width: 254px;
+    margin: 0 auto;
+}
+
+#log-in ul {
+    width: 254px;
+    list-style: none;
+    margin: 30px auto;
+    padding: 0;
+}
+
+#log-in ul li {
+    margin: 10px 0;
+    padding: 0;
+}
+
+#log-in ul li input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#log-in input[type=submit] {
+	margin: 20px auto;
+}
+
+.form_input {
+	width: 80%;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+    #log-in {
+        width: 90%;
+        margin: 40px auto 0 auto;
+}
+
+	}

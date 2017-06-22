@@ -1,0 +1,41 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-image: url("../images/page_bg.png");
+    background-color: #fff;
+}
+
+#log-in {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,1)0%, rgba(255,255,255,.7) 100%);
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 0 0 rgba(200,200,200,0.2), inset -1px -1px 0 0 rgba(0,0,0,0.4);
+}
+
+#log-in ul li input {
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#log-in input[type=submit] {
+    background-color: #b21db7;
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+}
+
+#log-in input[type=submit]:hover {
+	background-color: #d92fde;
+}
+
+#log-in input[type=submit]:focus {
+	outline: #fff solid 1px;
+}
+
+.form_input {
+    background-color: #ddd;
+    border: 0;
+    border-radius: 5px;
+}
+
+.form_input:focus {
+	box-shadow: 0 0 10px 0 rgb(111,18,114) inset;
+}

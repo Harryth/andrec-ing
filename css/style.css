@@ -1,0 +1,64 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-image: url("../images/page_bg.png");
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: #6f1272;
+    color: #fff;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li:hover{
+    border-bottom: 1px solid #fff;
+}
+
+fieldset {
+    background-color: rgba(255,255,255,.8);
+    border-radius: 15px;
+    border: 1px solid #0090ff;
+}
+
+fieldset p {
+    border-bottom: 1px solid #000;
+}
+
+.score input[type="radio"] + span:before {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    border: 1px solid #a51ba9;
+}
+
+div.score input[type="radio"]:checked:nth-child(9)+ span:before {
+	background-color: #fff;
+    border: 1px solid #36de2f;
+    box-shadow: 0 0 0px 1px #36de2f inset;
+}
+
+div.score input[type="radio"]:checked:nth-child(7)+ span:before {
+	background-color: #fff;
+    border: 1px solid #b7f914;
+    box-shadow: 0 0 0px 1px #b7f914 inset;
+}
+
+div.score input[type="radio"]:checked:nth-child(5)+ span:before {
+	background-color: #fff;
+    border: 1px solid #f6fb12;
+    box-shadow: 0 0 0px 1px #f6fb12 inset;
+}
+
+div.score input[type="radio"]:checked:nth-child(3)+ span:before {
+	background-color: #fff;
+    border: 1px solid #fc9511;
+    box-shadow: 0 0 0px 1px #fc9511 inset;
+}
+
+div.score input[type="radio"]:checked:first-child+ span:before {
+	background-color: #fff;
+    border: 1px solid #f02e1d;
+    box-shadow: 0 0 0px 1px #f02e1d inset;
+}

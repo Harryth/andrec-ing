@@ -28,11 +28,11 @@
     <!-- Codigo para el favico-->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/layout.css" />
-    <title>Evaluaci&oacute;n</title>
+    <title>Reporte No. </title>
 </head>
 
 <body>
-    <nav>
+    <!--<nav>
         <span id="logo">
             <a href="/">
                 <img alt="Andrec Logo" src="images/logo_b.png" height="54" width="235" />
@@ -43,24 +43,27 @@
             <li>Menu 2</li>
             <li>Menu 3</li>
         </ul>
-    </nav>
+    </nav>-->
 
-    <form method="post" action="#">
-        <fieldset class="score">
-            <p class="question">Pregunta Selecci&oacute;n</p>
-            <div class="score">
-                <input type="radio" name="pregunta1" value="1" /><span>1</span>
-                <input type="radio" name="pregunta1" value="2" /><span>2</span>
-                <input type="radio" name="pregunta1" value="3" /><span>3</span>
-                <input type="radio" name="pregunta1" value="4" /><span>4</span>
-                <input type="radio" name="pregunta1" value="5" checked /><span>5</span>
-            </div>
+    <section><h1>Reporte de Servicio</h1></section>
+    <section id=form>
+        <p>No S71999</p>
+        <form method="post" action="#">
+        <fieldset class="clt">
+            <legend>Información del cliente</legend>
+            <label for="client">Cliente</label><input type="text" name="client" id="client" />
+            <label for="email">e-mail</label><input type="email" name="email" id="email" />
+            <label for="contact">Contacto</label><input type="text" name="contact" id="contact" />
+            <label for="phone">Tel&eacute;fono</label><input type="tel" name="phone" id="phone" />
+            <label for="add">Direcci&oacute;n</label><input type="text"name="add" id="add" />
+            <label for="city">Ciudad</label><input type="text" name="city" id="city" />
         </fieldset>
-        <fieldset class="open">
+        <!--<fieldset class="open">
             <p class="question">Pregunta Abierta</p>
             <textarea name="pregunta2" cols="80" rows="5" placeholder="Pregunta Abierta"></textarea>
-        </fieldset>
-    </form>
+        </fieldset>-->
+        </form>
+    </section>
 </body>
 
 </html>

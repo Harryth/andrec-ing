@@ -33,9 +33,23 @@ nav ul li {
 }
 
 fieldset {
-    width: 50%;
+    width: 70%;
     margin: 20px auto;
     padding: 5px 30px 20px 30px;
+}
+
+fieldset.clt input{
+    width: 40%;
+}
+
+fieldset.clt input:nth-child(4n+1){
+    width: 25%;
+}
+
+fieldset.clt label{
+    display: inline-block;
+    width: 13%;
+    margin: auto 10px;
 }
 
 div.score {
@@ -71,4 +85,35 @@ fieldset p {
 fieldset textarea {
     display: block;
     margin: 20px auto 5px auto;
+}
+
+@media only screen and (max-width: 720px) {
+    fieldset {
+        display: block;
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    fieldset.clt label {
+        display: block;
+        width: 50%;
+    }
+
+    fieldset.clt input {
+        display: block;
+        clear: left;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    fieldset.clt input:nth-child(4n+1){
+    width: 90%;
+    }
+
+}
+
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
 }

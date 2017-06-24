@@ -24,6 +24,13 @@ fieldset {
     border: 1px solid #0090ff;
 }
 
+legend {
+    background-color: #0090ff;
+    border-radius: 10px;
+    border: 1px solid #0090ff;
+    padding: 2px 4px;
+}
+
 fieldset input {
     border: 1px solid #aaa;
     border-radius: 3px;
@@ -31,6 +38,14 @@ fieldset input {
 
 fieldset p {
     border-bottom: 1px solid #000;
+}
+
+@media only screen and (max-width: 720px) {
+    fieldset {
+        border: 0;
+        border-top: 1px solid #0090ff;
+        border-radius: 0;
+    }
 }
 
 .score input[type="radio"] + span:before {

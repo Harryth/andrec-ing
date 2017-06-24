@@ -49,7 +49,7 @@
     <section id=form>
         <p>No S71999</p>
         <form method="post" action="#">
-        <fieldset class="clt">
+        <fieldset class="sec">
             <legend>Información del cliente</legend>
             <label for="client">Cliente</label><input type="text" name="client" id="client" />
             <label for="email">e-mail</label><input type="email" name="email" id="email" />
@@ -57,6 +57,31 @@
             <label for="phone">Tel&eacute;fono</label><input type="tel" name="phone" id="phone" />
             <label for="add">Direcci&oacute;n</label><input type="text"name="add" id="add" />
             <label for="city">Ciudad</label><input type="text" name="city" id="city" />
+        </fieldset>
+        <div class="srv">
+            <span class="wrap">
+                <label for="prev">Preventivo</label><input type="checkbox" value="prev" name="service" id="prev" />
+            </span>
+            <span class="wrap">
+                <label for="corr">Correctivo</label><input type="checkbox" value="corr" name="service" id="corr" />
+            </span>
+            <span class="wrap">
+                <label for="cont">Contrato</label><input type="checkbox" value="cont" name="service" id="cont" />
+            </span>
+            <span class="wrap">
+                <label for="war">Garant&iacute;a</label><input type="checkbox" value="war" name="service" id="war" />
+            </span>
+            <span class="wrap">
+                <label for="oth">Otro</label><input type="checkbox" value="oth" name="service" id="oth" />
+                <input type="text" name="oth_v" id="oth_v" size="15" />
+            </span>
+        </div>
+        <fieldset class="sec">
+            <legend>Informaci&oacute;n del Equipo</legend>
+            <label for="eqmt">Equipo</label><input type="text" name="eqmt" id="eqmt" />
+            <label for="brand">Marca</label><input type="text" name="brand" id="brand" />
+            <label for="mdl">Modelo</label><input type="text" name="mdl" id="mdl" />
+            <label for="sn">Serial</label><input type="text" name="sn" id="sn" />
         </fieldset>
         <!--<fieldset class="open">
             <p class="question">Pregunta Abierta</p>

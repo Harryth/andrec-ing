@@ -38,18 +38,37 @@ fieldset {
     padding: 5px 30px 20px 30px;
 }
 
-fieldset.clt input{
+fieldset.sec input{
     width: 40%;
 }
 
-fieldset.clt input:nth-child(4n+1){
+fieldset.sec input:nth-child(4n+1){
     width: 25%;
 }
 
-fieldset.clt label{
+fieldset.sec label{
     display: inline-block;
     width: 13%;
     margin: auto 10px;
+}
+
+div.srv {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+span.wrap {
+    width: 25%;
+}
+
+span.wrap:last-child {
+    width: 40%;
+}
+
+span.wrap input {
+    margin-left: 10px;
 }
 
 div.score {
@@ -94,26 +113,36 @@ fieldset textarea {
         width: 100%;
     }
 
-    fieldset.clt label {
+    fieldset.sec label {
         display: block;
         width: 50%;
     }
 
-    fieldset.clt input {
+    fieldset.sec input {
         display: block;
         clear: left;
         width: 90%;
         margin: 0 auto;
     }
 
-    fieldset.clt input:nth-child(4n+1){
+    fieldset.sec input:nth-child(4n+1) {
     width: 90%;
     }
 
-}
-
-@media only screen and (orientation: landscape) {
-    body {
-        background-color: lightblue;
+    div.srv {
+        width: 100%;
+        display: block;
     }
+
+    span.wrap {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        padding: 0 20px;
+    }
+
+    span.wrap input {
+        margin: auto 20px;
+    }
+
 }

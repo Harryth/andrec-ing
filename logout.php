@@ -1,4 +1,6 @@
 <?php
+
+// Closing and destroying session after log out
 session_start();
 $_SESSION = array();
 if (session_id() != "" || isset($_COOKIE[session_name()]))

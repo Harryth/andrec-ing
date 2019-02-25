@@ -10,12 +10,14 @@ nav {
     padding: 10px 0;
 }
 
+//Moving logout button to the top-left corner
 #logout {
     position: absolute;
     right: 20px;
     top: 13px;
 }
 
+//Positioning logo in all screens
 #logo {
     display: inline-block;
     position: absolute;
@@ -117,6 +119,8 @@ fieldset textarea {
     margin: 20px auto 5px auto;
 }
 
+
+//Configuration for mobile devices
 @media only screen and (max-width: 720px) {
     fieldset {
         display: block;

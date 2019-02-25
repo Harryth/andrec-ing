@@ -1,8 +1,9 @@
 <?php
 
 session_start();
-$page_perm = 8; // Varoable that stores the page permissions level
+$page_perm = 8; // Variable that stores the page permissions level
 
+// New SQL connection
 require_once 'login.php';
 $mysqli = new mysqli($db_hostname,$db_username,$db_password,$db_database);
 

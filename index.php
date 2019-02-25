@@ -29,6 +29,8 @@
     <title>Inicio Sesi&oacute;n</title>
 </head>
 
+
+<!-- Log in form-->
 <body>
     <div id="log-in">
         <div id="logo">

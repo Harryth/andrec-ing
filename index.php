@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="Evaluacion, Andrec" />
-    <meta name="description" content="Sistema de evaluacion Andrec Corporation" />
+    <meta name="keywords" content="Ingeniería, Andrec" />
+    <meta name="description" content="Administración de servicio Andrec" />
     <meta name="author" content="Harold Vallejo" />
     <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/appleimages/faviconimages/favicon-icon-60x60.png" />
@@ -33,16 +33,16 @@
     <div id="log-in">
         <div id="logo">
             <a href="http://andreccorporation.com" target="_blank">
-                <img src="images/logo.png" alt="logo" height="173" width="254" />
+                <img src="images/logo.png" alt="logo" height="91" width="247" />
             </a>
         </div>
-        <form method="post" action="#">
+        <form method="post" action="user.php">
             <ul>
                 <li>
                     <input type="text" name="user" id="user" placeholder="Usuario" class="form_input" />
                 </li>
                 <li>
-                    <input type="password" name="pass" id="pas" placeholder="Contrase&ntilde;a" class="form_input" />
+                    <input type="password" name="pass" id="pass" placeholder="Contrase&ntilde;a" class="form_input" />
                 </li>
                 <li>
                     <input type="submit" value="Iniciar Sesi&oacute;n" />

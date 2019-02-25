@@ -10,6 +10,12 @@ nav {
     padding: 10px 0;
 }
 
+#logout {
+    position: absolute;
+    right: 20px;
+    top: 13px;
+}
+
 #logo {
     display: inline-block;
     position: absolute;

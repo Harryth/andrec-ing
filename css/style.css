@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-    background-color: #6f1272;
+    background-color: #58137b;
     color: #fff;
 }
 
@@ -16,6 +16,12 @@ nav li {
 
 nav li:hover{
     border-bottom: 1px solid #fff;
+}
+
+#logout {
+    color: #fff;
+    text-decoration: none;
+    font-size: 36px;
 }
 
 fieldset {
@@ -41,11 +47,18 @@ fieldset p {
 }
 
 @media only screen and (max-width: 720px) {
+    body {
+        background-image: url("../images/bg_mb.png");
+    }
     fieldset {
         border: 0;
         border-top: 1px solid #0090ff;
         border-radius: 0;
     }
+    
+    #logout {
+    font-size: 18px;
+}
 }
 
 .score input[type="radio"] + span:before {

@@ -28,11 +28,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="158.43086"
-     inkscape:cy="232.07998"
+     inkscape:zoom="1.4"
+     inkscape:cx="420.70725"
+     inkscape:cy="-17.44194"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4249"
      showgrid="false"
      inkscape:window-width="1366"
      inkscape:window-height="705"
@@ -278,6 +278,119 @@
              x="-566.61859"
              y="1079.8967"
              style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:15px;font-family:'Britannic T';-inkscape-font-specification:'Britannic T Light';letter-spacing:22.80999947px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">SURGICAL</tspan></text>
+      </g>
+      <g
+         transform="translate(549.92109,-11.859325)"
+         id="g4204-1"
+         style="fill:#58137b;fill-opacity:1">
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.50806153;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4238"
+           width="253.49194"
+           height="174.49194"
+           x="-191.33186"
+           y="928.38678"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90" />
+        <path
+           style="fill:#58137b;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m -565.90434,1015.9681 217.85715,0"
+           id="path4144-7-1"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g4240"
+           transform="translate(374.91841,56.9057)"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90">
+          <path
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             sodipodi:nodetypes="ccssccssc"
+             inkscape:connector-curvature="0"
+             id="path4142-4-9"
+             d="m -563.04719,974.9824 5.5094,7.65197 28.4652,-36.4232 c 3.22014,-4.12039 9.27753,-5.85742 13.77349,0 l 43.46301,56.62433 21.42542,-28.15914 -41.62654,-53.86962 c -5.83605,-7.55255 -19.53917,-11.97395 -28.96914,0.14534 z"
+             style="fill:#58137b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <text
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             sodipodi:linespacing="125%"
+             id="text4146-0-2"
+             y="994.87048"
+             x="-444.84189"
+             style="font-style:normal;font-weight:normal;font-size:26.55228424px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#58137b;fill-opacity:1;stroke:#58137b;stroke-width:0.26552284;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:29.04156303px;font-family:'Britannic T';-inkscape-font-specification:'Britannic T Light';letter-spacing:-0.60406452px;fill:#58137b;fill-opacity:1;stroke:#58137b;stroke-width:0.26552284;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               y="994.87048"
+               x="-444.84189"
+               id="tspan4148-6-4"
+               sodipodi:role="line">ANDREC</tspan></text>
+          <text
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             sodipodi:linespacing="125%"
+             id="text4150-7-3"
+             y="1003.7845"
+             x="-445.5531"
+             style="font-style:normal;font-weight:normal;font-size:26.55228424px;line-height:125%;font-family:sans-serif;letter-spacing:9.06096649px;word-spacing:0px;fill:#58137b;fill-opacity:1;stroke:#58137b;stroke-width:0.26552284;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:9.95710659px;font-family:'Britannic T';-inkscape-font-specification:'Britannic T Light';letter-spacing:7.56738424px;word-spacing:0px;fill:#58137b;fill-opacity:1;stroke:#58137b;stroke-width:0.26552284;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               y="1003.7845"
+               x="-445.5531"
+               id="tspan4152-6-7"
+               sodipodi:role="line">ENGINEERING</tspan></text>
+        </g>
+        <rect
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           y="1120.1392"
+           x="-210.63264"
+           height="54"
+           width="235"
+           id="rect4247"
+           style="opacity:1;fill:#58137b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.50806153;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           transform="matrix(0.56520507,0,0,0.56520507,166.59367,605.24834)"
+           id="g4249"
+           style="fill:#ffffff;fill-opacity:1;stroke:none">
+          <path
+             style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m -563.04719,974.9824 5.5094,7.65197 28.4652,-36.4232 c 3.22014,-4.12039 9.27753,-5.85742 13.77349,0 l 43.46301,56.62433 21.42542,-28.15914 -41.62654,-53.86962 c -5.83605,-7.55255 -19.53917,-11.97395 -28.96914,0.14534 z"
+             id="path4251"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccssccssc"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:26.55228424px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.26552284;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+             x="-444.84189"
+             y="994.87048"
+             id="text4253"
+             sodipodi:linespacing="125%"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90"><tspan
+               sodipodi:role="line"
+               id="tspan4255"
+               x="-444.84189"
+               y="994.87048"
+               style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:29.04156303px;font-family:'Britannic T';-inkscape-font-specification:'Britannic T Light';letter-spacing:-0.60406452px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.26552284;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;">ANDREC</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:26.55228424px;line-height:125%;font-family:sans-serif;letter-spacing:9.06096649px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.26552284;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+             x="-445.5531"
+             y="1003.7845"
+             id="text4257"
+             sodipodi:linespacing="125%"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90"><tspan
+               sodipodi:role="line"
+               id="tspan4259"
+               x="-445.5531"
+               y="1003.7845"
+               style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:9.95710659px;font-family:'Britannic T';-inkscape-font-specification:'Britannic T Light';letter-spacing:7.56738424px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.26552284;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;">ENGINEERING</tspan></text>
+        </g>
       </g>
     </g>
     <rect

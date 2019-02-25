@@ -16,14 +16,14 @@ body {
 }
 
 #log-in input[type=submit] {
-    background-color: #b21db7;
+    background-color: #58137b;
     color: #fff;
     border: 0;
     border-radius: 20px;
 }
 
 #log-in input[type=submit]:hover {
-	background-color: #d92fde;
+	background-color: #62137b;
 }
 
 #log-in input[type=submit]:focus {

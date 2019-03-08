@@ -75,6 +75,8 @@ else {
     <meta name="theme-color" content="#ffffff" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
     <!--Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Men&uacute; Principal</title>
@@ -94,11 +96,15 @@ else {
                         <img alt="Andrec Logo" src="images/logo_b.png" height="54" width="235" />
                     </a>
                 </span>
-                <ul>
-                    <li>Menu 1</li>
-                    <li>Menu 2</li>
-                    <li>Menu 3</li>
-                </ul>
+                <div id="dl-menu" class="dl-menuwrapper">
+                    <button class="dl-trigger">Open Menu</button>
+                    <ul class="dl-menu">
+                        <li><a href="#">Menu 1</a></li>
+                        <li><a href="#">Menu 2</a></li>
+                        <li><a href="#">Menu 3</a></li>
+                    </ul>
+                </div>
+
                 <?php if(isset($_SESSION['usrnm'])) echo "<a href='logout.php' id='logout'><i class=\"fa fa-sign-out\"></i></a>"; ?>
             </nav>
         </header>
@@ -204,6 +210,14 @@ _END;
 				</p>
 			</footer>
 		</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.dlmenu.js"></script>
+	<script>
+        $(function() {
+            $( '#dl-menu' ).dlmenu();
+        });
+    </script>
 </body>
 
 </html>

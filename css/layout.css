@@ -10,18 +10,24 @@ nav {
     padding: 10px 0;
 }
 
-//Moving logout button to the top-left corner
+#logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+#logo a {
+    display: block;
+    height: 54px;
+    width: 235px;
+    background-repeat: no-repeat;
+}
+
+/*Moving logout button to the top-left corner*/
 #logout {
     position: absolute;
     right: 20px;
-    top: 13px;
-}
-
-//Positioning logo in all screens
-#logo {
-    display: inline-block;
-    position: absolute;
-    margin: 0 20px 0 130px;
+    top: 10px;
 }
 
 nav ul {
@@ -120,8 +126,13 @@ fieldset textarea {
 }
 
 
-//Configuration for mobile devices
 @media only screen and (max-width: 720px) {
+    #logo a{
+        background-repeat: no-repeat;
+        height: 51px;
+        width: 64px;
+        left: 10px;
+    }
     fieldset {
         display: block;
         padding: 20px 0;

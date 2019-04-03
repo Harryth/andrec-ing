@@ -10,6 +10,11 @@ nav {
     color: #fff;
 }
 
+#logo a{
+    text-decoration: none;
+    background-image: url("../images/logo_b.png")
+}
+
 /*nav li {
     list-style: none;
 }
@@ -17,43 +22,6 @@ nav {
 nav li:hover{
     border-bottom: 1px solid #fff;
 }*/
-
-.dl-menu.dl-animate-out-1 {
-	animation: MenuAnimOut1 0.4s linear forwards;
-}
-
-@keyframes MenuAnimOut1 {
-	50% {
-		transform: translateZ(-250px) rotateY(30deg);
-	}
-	75% {
-		transform: translateZ(-372.5px) rotateY(15deg);
-		opacity: .5;
-	}
-	100% {
-		transform: translateZ(-500px) rotateY(0deg);
-		opacity: 0;
-	}
-}
-
-.dl-menu.dl-animate-in-1 {
-	animation: MenuAnimIn1 0.3s linear forwards;
-}
-
-@keyframes MenuAnimIn1 {
-	0% {
-		transform: translateZ(-500px) rotateY(0deg);
-		opacity: 0;
-	}
-	20% {
-		transform: translateZ(-250px) rotateY(30deg);
-		opacity: 0.5;
-	}
-	100% {
-		transform: translateZ(0px) rotateY(0deg);
-		opacity: 1;
-	}
-}
 
 #logout {
     color: #fff;
@@ -84,7 +52,7 @@ fieldset p {
 }
 
 
-//Configuration for mobile devices
+/*Configuration for mobile devices*/
 @media only screen and (max-width: 720px) {
     body {
         background-image: url("../images/bg_mb.png");
@@ -94,9 +62,11 @@ fieldset p {
         border-top: 1px solid #0090ff;
         border-radius: 0;
     }
-    
+    #logo a{
+        background-image: url("../images/iso_b.png")
+    }
     #logout {
-    font-size: 18px;
+    font-size: 20px;
 }
 }
 

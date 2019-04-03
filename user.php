@@ -75,10 +75,10 @@ else {
     <meta name="theme-color" content="#ffffff" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/layout.css" />
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
-    <script src="js/modernizr.custom.js"></script>
     <!--Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Men&uacute; Principal</title>
 </head>
 
@@ -92,13 +92,10 @@ else {
         <header>
             <nav>
                 <span id="logo">
-                    <a href="/">
-                        <img alt="Andrec Logo" src="images/logo_b.png" height="54" width="235" />
-                    </a>
+                    <a href="/"></a>
                 </span>
-                <div id="dl-menu" class="dl-menuwrapper">
-                    <button class="dl-trigger">Open Menu</button>
-                    <ul class="dl-menu">
+                <div class="menu">
+                    <ul class="list">
                         <li><a href="#">Menu 1</a></li>
                         <li><a href="#">Menu 2</a></li>
                         <li><a href="#">Menu 3</a></li>
@@ -210,14 +207,6 @@ _END;
 				</p>
 			</footer>
 		</div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="js/jquery.dlmenu.js"></script>
-	<script>
-        $(function() {
-            $( '#dl-menu' ).dlmenu();
-        });
-    </script>
 </body>
 
 </html>

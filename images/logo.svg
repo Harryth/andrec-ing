@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="420.70725"
-     inkscape:cy="-17.44194"
+     inkscape:zoom="2"
+     inkscape:cx="290.84651"
+     inkscape:cy="-96.890042"
      inkscape:document-units="px"
      inkscape:current-layer="g4249"
      showgrid="false"
@@ -390,6 +390,57 @@
                x="-445.5531"
                y="1003.7845"
                style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:9.95710659px;font-family:'Britannic T';-inkscape-font-specification:'Britannic T Light';letter-spacing:7.56738424px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.26552284;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;">ENGINEERING</tspan></text>
+          <path
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             sodipodi:nodetypes="ccssccssc"
+             inkscape:connector-curvature="0"
+             id="path4217"
+             d="m -739.97414,974.9824 5.5094,7.65197 28.4652,-36.4232 c 3.22014,-4.12039 9.27753,-5.85742 13.77349,0 l 43.46301,56.62433 21.42542,-28.15914 -41.62654,-53.86962 c -5.83605,-7.55255 -19.53917,-11.97395 -28.96914,0.14534 z"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <g
+           style="fill:#58137b;fill-opacity:1"
+           id="g4240-8"
+           transform="translate(-39.744984,277.89061)"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90">
+          <path
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             sodipodi:nodetypes="ccssccssc"
+             inkscape:connector-curvature="0"
+             id="path4142-4-9-3"
+             d="m -563.04719,974.9824 5.5094,7.65197 28.4652,-36.4232 c 3.22014,-4.12039 9.27753,-5.85742 13.77349,0 l 43.46301,56.62433 21.42542,-28.15914 -41.62654,-53.86962 c -5.83605,-7.55255 -19.53917,-11.97395 -28.96914,0.14534 z"
+             style="fill:#58137b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <text
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             sodipodi:linespacing="125%"
+             id="text4146-0-2-0"
+             y="994.87048"
+             x="-444.84189"
+             style="font-style:normal;font-weight:normal;font-size:26.55228424px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#58137b;fill-opacity:1;stroke:#58137b;stroke-width:0.26552284;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:29.04156303px;font-family:'Britannic T';-inkscape-font-specification:'Britannic T Light';letter-spacing:-0.60406452px;fill:#58137b;fill-opacity:1;stroke:#58137b;stroke-width:0.26552284;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               y="994.87048"
+               x="-444.84189"
+               id="tspan4148-6-4-7"
+               sodipodi:role="line">ANDREC</tspan></text>
+          <text
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             sodipodi:linespacing="125%"
+             id="text4150-7-3-2"
+             y="1003.7845"
+             x="-445.5531"
+             style="font-style:normal;font-weight:normal;font-size:26.55228424px;line-height:125%;font-family:sans-serif;letter-spacing:9.06096649px;word-spacing:0px;fill:#58137b;fill-opacity:1;stroke:#58137b;stroke-width:0.26552284;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:9.95710659px;font-family:'Britannic T';-inkscape-font-specification:'Britannic T Light';letter-spacing:7.56738424px;word-spacing:0px;fill:#58137b;fill-opacity:1;stroke:#58137b;stroke-width:0.26552284;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               y="1003.7845"
+               x="-445.5531"
+               id="tspan4152-6-7-6"
+               sodipodi:role="line">CORPORATION</tspan></text>
         </g>
       </g>
     </g>

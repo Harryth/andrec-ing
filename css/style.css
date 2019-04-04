@@ -29,6 +29,19 @@ nav li:hover{
     font-size: 36px;
 }
 
+.button {
+    border: 1px solid gray;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    display:inline-block;
+    background-color: darkgrey;
+}
+
+.button:hover {
+    border-color: rgba(255,255,255,1);
+}
+
 fieldset {
     background-color: rgba(255,255,255,.8);
     border-radius: 15px;
@@ -47,10 +60,25 @@ fieldset input {
     border-radius: 3px;
 }
 
+fieldset select {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
 fieldset p {
     border-bottom: 1px solid #000;
 }
 
+input[type=submit].form {
+    color: whitesmoke;
+    font-size: 1.1em;
+    background-color: gray;
+    border-radius: 1em;
+}
+
+input[type=submit].form:hover {
+    background-color: dimgray;
+}
 
 /*Configuration for mobile devices*/
 @media only screen and (max-width: 720px) {
@@ -104,4 +132,8 @@ div.score input[type="radio"]:checked:first-child+ span:before {
 	background-color: #fff;
     border: 1px solid #f02e1d;
     box-shadow: 0 0 0px 1px #f02e1d inset;
+}
+
+footer {
+    text-align: center;
 }

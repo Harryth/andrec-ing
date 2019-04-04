@@ -46,6 +46,27 @@ nav ul li {
     text-align: center;
 }
 
+#buttons_wrapper {
+    width: 100%;
+    height: auto;
+    padding: 0 15%;
+    text-align: center;
+    margin: 70px 0;
+}
+
+.button {
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    line-height: 50px;
+    float: left;
+    margin: 0 20px;
+}
+
+.form_wrapper {
+    margin: 70px 10px;
+}
+
 fieldset {
     width: 70%;
     margin: 7px auto;
@@ -54,6 +75,11 @@ fieldset {
 
 fieldset.sec input{
     width: 40%;
+}
+
+fieldset.sec select{
+    width: 25%;
+    margin: -5px;
 }
 
 fieldset.sec input:nth-child(4n+1){
@@ -69,6 +95,13 @@ fieldset.sec label{
 fieldset.sec textarea {
     width: 100%;
     height: 50px;
+}
+
+input[type=submit].form {
+    float: right;
+    margin: 15px 15%;
+    height: 3em;
+    width: 5em;
 }
 
 div.srv {
@@ -125,6 +158,12 @@ fieldset textarea {
     margin: 20px auto 5px auto;
 }
 
+footer {
+    width: 100%;
+    float: right;
+    margin-top: 50px;
+}
+
 
 @media only screen and (max-width: 720px) {
     #logo a{
@@ -138,6 +177,15 @@ fieldset textarea {
         padding: 20px 0;
         width: 100%;
     }
+
+    fieldset.sec select{
+    width: 90%;
+    margin: 0 5%
+}
+
+    #buttons_wrapper {
+    padding: 0;
+}
 
     fieldset.sec label {
         display: block;

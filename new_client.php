@@ -1,40 +1,13 @@
 <?php
 
 session_start();
-$page_perm = 1; // Variable that stores the page permissions level
+$page_perm = 127; // Variable that stores the page permissions level
 
 // New SQL connection
 require_once 'login.php';
 $mysqli = new mysqli($db_hostname,$db_username,$db_password,$db_database);
 
 require_once 'functions.php';
-
-if (isset($_POST['user']) && isset($_POST['pass'])) {
-
-	$user = sanitizeString($mysqli, $_POST['user']);
-	#$pass = sanitizeString($mysqli, $_POST['pass']);
-	$pass = $_POST['pass'];
-
-	$salt1 = ";*&0@]727{";
-	$salt2 = "&%J847Yhk";
-	$token = sha1("$salt2$pass$salt1");
-
-	$mysqli -> query("SET NAMES 'utf8'");
-	$result = $mysqli -> query("SELECT * FROM users WHERE user = '$user';");
-
-	$row = $result -> fetch_array(MYSQLI_BOTH);
-
-	if ($row['password'] == $token) {
-		$_SESSION['usrnm'] = $user;
-	}
-	else {
-		$_SESSION = array();
-		if (session_id() != "" || isset($_COOKIE[session_name()]))
-		setcookie(session_name(), '', time() - 2592000, '/');
-		session_destroy();
-		
-	}
-}
 
 // Fetches for user permissions in database and compares it with page permissions
 if(isset($_SESSION['usrnm'])){
@@ -54,7 +27,7 @@ else {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="Ingeniería, Andrec" />
-    <meta name="description" content="Administraci&oacute;n de servicio Andrec" />
+    <meta name="description" content="Creación de nuevo cliente" />
     <meta name="author" content="Harold Vallejo" />
     <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/appleimages/faviconimages/favicon-icon-60x60.png" />
@@ -105,22 +78,60 @@ else {
                 <?php if(isset($_SESSION['usrnm'])) echo "<a href='logout.php' id='logout'><i class=\"fa fa-sign-out\"></i></a>"; ?>
             </nav>
         </header>
-			
-			<div id="buttons_wrapper">
-				<?php
-				if (permissions($_SESSION['usrnm'],1,$mysqli)) {
-					echo <<<_END
-				<a href="new_client.php" class='button'>Nuevo Cliente</a>
-_END;
-				}
-				?>
-				<!--<p class="sl">
-					<a href="find_ref.php">Modificar referencia</a>
-				</p>-->
-				<!--<p class="sl">
-				<a href="find_dist.php">Editar distribuidor</a>
-				</p>-->
-			</div>
+
+
+        <?php
+        if (isset($_POST['clinic'])) {
+
+	$clinic = sanitizeString($mysqli, $_POST['clinic']);
+    $nit = sanitizeString($mysqli, $_POST['nit']);
+    $address = sanitizeString($mysqli, $_POST['address']);
+    $city = sanitizeString($mysqli, $_POST['city']);
+
+    $contact = sanitizeString($mysqli, $_POST['contact']);
+    $phone = sanitizeString($mysqli, $_POST['phone']);
+    $mobile = sanitizeString($mysqli, $_POST['mobile']);
+    $email = sanitizeString($mysqli, $_POST['email']);
+
+    //echo "$clinic, $nit, $address, $city, $contact, $phone, $mobile, $email";
+    $mysqli -> query("INSERT into clinics (name, address, nit, city_id) VALUES ('$clinic', '$address', '$nit', $city)");
+
+    $clinic_id = $mysqli -> insert_id;
+
+    $mysqli -> query("INSERT into contacts (name, mobile, phone, mail, clinic_id) VALUES ('$contact', '$mobile', '$phone', '$email', $clinic_id)");
+}
+        ?>
+
+			<div class="form_wrapper">
+            <form method="post" action="new_client.php">
+                <fieldset class="sec">
+                    <legend>Información de la clínica</legend>
+                    <label for="clinic">Clínica</label><input type="text" name="clinic" id="clinic" required />
+                    <label for="nit">NIT</label><input type="text" name="nit" id="nit" />
+                    <label for="address">Direcci&oacute;n</label><input type="text" name="address" id="address" />
+                    <label for="city">Ciudad</label>
+                    <select name="city">
+                    <?php
+
+                    $mysqli = new mysqli($db_hostname,$db_username,$db_password,$db_database);
+                    $mysqli -> query("SET NAMES 'utf8'");
+                    if($result = $mysqli -> query("SELECT id, name FROM `cities`")){
+                        while ($row = $result->fetch_assoc()){
+                        printf ("<option value='%s'>%s</option>", $row["id"], $row["name"]);
+                    }
+                    }
+                        else echo "<option value=>Paila</option>"
+                    ?>
+                    </select>
+                    <label for="contact">Contacto</label><input type="text" name="contact" id="contact" required />
+                    <label for="mobile">Celular</label><input type="tel" name="mobile" id="mobile" />
+                    <label for="phone">Tel&eacute;fono</label><input type="tel" name="phone" id="phone" />
+                    <label for="email">e-mail</label><input type="mail" name="email" id="email" />
+                </fieldset>
+
+                <input class="form" type="submit">
+            </form>
+            </div>
 
 			<footer>
 				<p>
